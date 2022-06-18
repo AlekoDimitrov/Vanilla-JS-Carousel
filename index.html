@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Carousel Tutorial KP</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <div class="carousel">
+      <div class="carousel__track-container">
+        <ul class="carousel__track">
+          <li class="carousel__slide current-slide">
+            <img
+              class="carousel__image"
+              src="https://images.unsplash.com/photo-1655500169150-9fa991c791f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+              alt=""
+            />
+          </li>
+          <li class="carousel__slide">
+            <img
+              class="carousel__image"
+              src="https://images.unsplash.com/photo-1655505959326-bce26a51ef47?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80"
+              alt=""
+            />
+          </li>
+          <li class="carousel__slide">
+            <img
+              class="carousel__image"
+              src="https://images.unsplash.com/photo-1653656120539-dba95a8e0d01?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80"
+              alt=""
+            />
+          </li>
+        </ul>
+        <button class="carousel__button carousel__button--right">></button>
+        <button class="carousel__button carousel__button--left"><</button>
+      </div>
+      <div class="carousel__nav">
+        <button class="carousel__indicator current-slide"></button
+        ><button class="carousel__indicator"></button
+        ><button class="carousel__indicator"></button>
+      </div>
+    </div>
+  </body>
+</html>
